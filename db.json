@@ -1,0 +1,130 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Graphite Stainless Steel Case with Braided Solo Loop",
+      "description": "The Braided Solo Loop is made from recycled yarn and silicone threads for an ultracomfortable, stretchable design with no clasps or buckles.",
+      "prices": 749,
+      "color": "graphite",
+      "tag": "new",
+      "images": [
+        "http://localhost:3000/images/01-1.jpeg",
+        "http://localhost:3000/images/01-2.jpeg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Green Aluminum Case with Solo Loop",
+      "description": "The aluminum case is lightweight and made from 100 percent recycled aerospace-grade alloy. The Solo Loop is made from soft, stretchable silicone and designed for ultracomfort with no clasps or buckles.",
+      "prices": 399,
+      "color": "green",
+      "tag": "new",
+      "images": [
+        "http://localhost:3000/images/02-1.jpeg",
+        "http://localhost:3000/images/02-2.jpeg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Blue Aluminum Case with Sport Loop",
+      "description": "The aluminum case is lightweight and made from 100 percent recycled aerospace-grade alloy. The Solo Loop is made from soft, stretchable silicone and designed for ultracomfort with no clasps or buckles.",
+      "prices": 399,
+      "color": "blue",
+      "tag": null,
+      "images": [
+        "http://localhost:3000/images/03-1.jpeg",
+        "http://localhost:3000/images/03-2.jpeg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "RED Aluminum Case with Braided Solo Loop",
+      "description": "The aluminum case is lightweight and made from 100 percent recycled aerospace-grade alloy. The Solo Loop is made from soft, stretchable silicone and designed for ultracomfort with no clasps or buckles.",
+      "prices": 449,
+      "color": "red",
+      "tag": null,
+      "images": [
+        "http://localhost:3000/images/04-1.jpeg",
+        "http://localhost:3000/images/04-2.jpeg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Gold Stainless Steel Case with Leather Link",
+      "description": "The Leather Link is made from handcrafted Roux Granada leather with no clasps or buckles, and has embedded magnets for a secure and adjustable fit.",
+      "prices": 749,
+      "color": "gold",
+      "tag": null,
+      "images": [
+        "http://localhost:3000/images/05-1.jpeg",
+        "http://localhost:3000/images/05-2.jpeg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Silver Stainless Steel Case with Milanese Loop",
+      "description": "The Milanese Loop is made from a smooth stainless steel mesh that’s fully magnetic, so it’s infinitely adjustable for a perfect fit.",
+      "prices": 749,
+      "color": "silver",
+      "tag": null,
+      "images": [
+        "http://localhost:3000/images/06-1.jpeg",
+        "http://localhost:3000/images/06-2.jpeg"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "totalPrice": 1500,
+      "products": [
+        {
+          "id": 1,
+          "title": "Graphite Stainless Steel Case with Braided Solo Loop",
+          "description": "The Braided Solo Loop is made from recycled yarn and silicone threads for an ultracomfortable, stretchable design with no clasps or buckles.",
+          "prices": 749,
+          "color": "graphite",
+          "tag": "new",
+          "images": [
+            "http://localhost:3000/images/01-1.jpeg",
+            "http://localhost:3000/images/01-2.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "total_price": 1000,
+      "products": [
+        {
+          "id": 1,
+          "title": "Graphite Stainless Steel Case with Braided Solo Loop",
+          "description": "The Braided Solo Loop is made from recycled yarn and silicone threads for an ultracomfortable, stretchable design with no clasps or buckles.",
+          "prices": 749,
+          "color": "graphite",
+          "tag": "new",
+          "images": [
+            "http://localhost:3000/images/01-1.jpeg",
+            "http://localhost:3000/images/01-2.jpeg"
+          ]
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "email": "ari@gmail.com",
+      "password": "$2a$10$uTKndlZDmqzsAgMn99eMPuEXM2TykF6QUDxb84tv7g54L4f80OvQi",
+      "full_name": "Ari Shojaei",
+      "id": 1
+    },
+    {
+      "email": "ariii@gmail.com",
+      "password": "$2a$10$uTKndlZDmqzsAgMn99eMPuEXM2TykF6QUDxb84tv7g54L4f80OvQi",
+      "full_name": "Ari Shojaei",
+      "id": 2
+    }
+  ]
+}
