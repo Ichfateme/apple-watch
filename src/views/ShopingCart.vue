@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar msg="Apple Watch Series 7" />
-    <div class="flex justify-center items-center gap-5 pt-5">
+    <div class="flex justify-center items-center gap-5 p-5">
       <product-card-row />
       <cart-sidebar />
     </div>
