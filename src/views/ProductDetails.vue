@@ -15,8 +15,10 @@
 </template>
 
 <script>
+  // @ is an alias to /src
   import Button from '@/components/Button.vue'
-import Navbar from '@/components/Navbar.vue'
+  import Navbar from '@/components/Navbar.vue'
+
   export default {
     components: {
       Button,
